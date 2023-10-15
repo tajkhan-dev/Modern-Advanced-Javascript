@@ -7,3 +7,7 @@
 // const
 
 var myname="jamstack developer";
+
+let myage=19;
+
+const city="california";
