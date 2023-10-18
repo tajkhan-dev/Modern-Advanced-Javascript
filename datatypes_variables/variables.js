@@ -29,12 +29,26 @@ const city = "Newyork"; // Error !!! cannot redeclare
 //  Primitive
 
 //   primitive datatypes include :
-//   String anything in double quotes "hey this is a double qoute" or single qoutes 'hey this is a single qoute'
+//   String: anything in double quotes "hey this is a double qoute" or single qoutes 'hey this is a single qoute'
+let variable1 = "this is a string with double quotes";
+variable1 = 'this is me a string with a single quotes';
+variable1 = "7"; //also a string not a number
+
 //   Numbers for example 8 or 10
+let phone=913882384;
+
 //   Boolean true or false
+let isGrownup=true;
+isGrownup=false
+
 //   float  15.66
-//   null  no value but itt exists
-//   undefined no value neither exists or may i say undefined
+let rollno=55.44;
+
+//   null  no value but it exists
+let weakness=null;
+
+//   undefined no value neither exists or may i say not deifined
+let future=undefined;
 //   symbols
 
 //  Composite
@@ -42,3 +56,5 @@ const city = "Newyork"; // Error !!! cannot redeclare
 //   Arrays
 //   Objects
 //   Functions
+
+// we will talk about the composite types in the later chapters
