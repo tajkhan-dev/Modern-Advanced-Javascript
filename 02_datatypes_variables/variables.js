@@ -47,7 +47,7 @@ let rollno=55.44;
 //   null  no value but it exists
 let weakness=null;
 
-//   undefined no value neither exists or may i say not deifined
+//   undefined no value neither exists or may i say not defined
 let future=undefined;
 //   symbols
 
