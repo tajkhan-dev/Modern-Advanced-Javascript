@@ -43,40 +43,33 @@ console.log(num5); // 8 due to post decrement
 --num5; // pre decrement
 console.log(num5); // 6 due to pre decrement
 
-
 // *** LOGICAL OPERATORS ***
 
-// AND && operator :this operator finds the first falsy value and print it. In order for it to return true both the values must be true 
+// AND && operator :this operator finds the first falsy value and print it. In order for it to return true both the values must be true
 let a = true;
 let b = false;
 
-console.log(a && b) // false 
+console.log(a && b); // false
 
-b=a // now both b and a are true
+b = a; // now both b and a are true
 
-console.log(a && b) // true because values on both side are true otherwise every answer returned by  the AND && operator will be false
+console.log(a && b); // true because values on both side are true otherwise every answer returned by  the AND && operator will be false
 
 // OR || operator : this operator finds the first truthy value and print it. In order for it to return true either of the values must be true
 let c = true;
 let d = false;
 
-console.log(c || d) // true because it only needs one truthy value
+console.log(c || d); // true because it only needs one truthy value
 
-d=c // now both d and c are true
+d = c; // now both d and c are true
 
-console.log(c || d) // true because values on both side are true otherwise every answer returned by OR || operator will be false
-
+console.log(c || d); // true because values on both side are true otherwise every answer returned by OR || operator will be false
 
 // NOT ! operator : this operator inverts the truthiness of the value it precedes. If the value is truthy, the NOT operator will make it falsy, and vice versa.
 let e = true;
 
-console.log(!e) // false
+console.log(!e); // false
 
-e=false // now e is false
+e = false; // now e is false
 
-console.log(!e) // true because the value of e is now falsy
-
-
-
-
-
+console.log(!e); // true because the value of e is now falsy
